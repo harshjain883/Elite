@@ -1,0 +1,66 @@
+.idea/
+.playwright-cli/
+.gradle/
+build/
+obj/
+*.iml
+local.properties
+TMessagesProj/.cxx/
+TMessagesProj/jniLibs/
+TMessagesProj/jniRes/
+**/.DS_Store
+TMessagesProj/afat/
+TMessagesProj_App/afat/
+TMessagesProj_AppHockeyApp/afat/
+TMessagesProj_AppStandalone/afat/
+TMessagesProj_AppHuawei/afat/
+TMessagesProj/jni/ffmpeg/build_android
+
+# Local release credentials and signing material
+**/*.keystore
+**/*.jks
+**/signing*.p12
+**/release*.p12
+**/secrets/
+
+# Firebase and provider configuration is generated per application/project
+**/google-services.json
+**/agconnect-services.json
+!**/*.example.json
+
+# Local Gradle signing and provider properties
+local.properties
+
+# Environment files (safe templates may be committed)
+.env
+.env.*
+!.env.example
+!*.env.example
+
+# Generated Android outputs and machine-local native build state
+**/build/
+**/.cxx/
+**/*.apk
+**/*.aab
+**/*.apks
+**/*.hprof
+**/*.logcat
+**/*.pcap
+
+# Emulator/runtime data and snapshots
+**/*.avd/
+**/*.qcow2
+**/snapshots/
+**/userdata*/
+
+# Internal recovery handoff and root-level diagnostic captures
+/context.md
+/*.log
+/*.png
+/*.xml
+/gradle_build_probe_*.txt
+/phase*_build*.txt
+/installed-*.apk
+
+# Local publication staging
+/.publication/

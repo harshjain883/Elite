@@ -1,0 +1,19 @@
+# Copy to local.properties and fill with local-only values.
+# Never commit local.properties.
+
+ELITEGRAM_APP_ID=YOUR_TELEGRAM_API_ID
+ELITEGRAM_APP_HASH=YOUR_TELEGRAM_API_HASH
+
+sdk.dir=C:\\Users\\YOUR_USER\\AppData\\Local\\Android\\Sdk
+RELEASE_KEYSTORE_FILE=C:\\Users\\YOUR_USER\\Elitegram-secrets\\elitegram-release.keystore
+RELEASE_STORE_PASSWORD=LOCAL_ONLY
+RELEASE_KEY_ALIAS=elitegram
+RELEASE_KEY_PASSWORD=LOCAL_ONLY
+
+# Optional private build settings used by auxiliary variants:
+# BETA_PRIVATE_URL=
+# APP_CENTER_HASH_PRIVATE=
+# APP_CENTER_HASH_PUBLIC=
+# APP_CENTER_HASH_HARDCORE=
+# BETA_PUBLIC_URL=
+# BETA_HARDCORE_URL=
